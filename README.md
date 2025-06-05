@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi there 👋, I'm Ian Faasen!  
 
-<!--
-**ianF57/ianF57** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 💻 About Me  
+I'm a **Bachelor of Computer Science** student at **Belgium Campus** (2023 - 2026), passionate about **Python, Natural Language Processing (NLP), and Deep Learning**. I enjoy tackling challenges, learning new technologies, and helping others grow in their knowledge.  
 
-Here are some ideas to get you started:
+## 🎓 Education  
+- **Belgium Campus** — Bachelor of Computer Science (2023 - 2026)  
+- **Eduplex High School** — Matric (2018 - 2022)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🏆 Skills  
+- **Python (Programming Language)**  
+- **Natural Language Processing (NLP)**  
+- **Deep Learning**  
+
+## 📚 Experience  
+### **Tutor Doctor — Private Tutor**  
+_August 2024 - May 2025 (10 months) | Gauteng, South Africa_  
+I tutored students from **Grade 1 to Matric** in **AFH, IT, and Math**, helping them build confidence and understanding in their studies.  
+
+## 🚀 Connect with Me  
+- **Email:** [faasenian0@gmail.com](mailto:faasenian0@gmail.com)  
+- **LinkedIn:** [Ian Faasen](https://www.linkedin.com/in/ian-faasen-2163791b2)  
+
+🌟 _Always eager to learn, grow, and collaborate on innovative projects!_  

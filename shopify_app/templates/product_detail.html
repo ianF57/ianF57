@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<article class="product-detail">
+  <img src="{{ product['image_url'] }}?w=900" alt="{{ product['name'] }}">
+  <div>
+    <h1>{{ product['name'] }}</h1>
+    <p>{{ product['description'] }}</p>
+    <p>In stock: {{ product['stock'] }}</p>
+    <p class="price">{{ product['price_cents']|money }}</p>
+    <form action="{{ url_for('add_to_cart', product_id=product['id']) }}" method="post">
+      <button class="btn" type="submit">Add to cart</button>
+    </form>
+  </div>
+</article>
+{% endblock %}

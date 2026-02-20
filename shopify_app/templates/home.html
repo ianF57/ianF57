@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+  <h1>Build your brand with Shopify Lite</h1>
+  <p>A full e-commerce starter: products, cart, checkout, orders, and admin inventory.</p>
+</section>
+
+<section class="grid">
+  {% for product in products %}
+    <article class="card">
+      <img src="{{ product['image_url'] }}?w=700" alt="{{ product['name'] }}">
+      <h3>{{ product['name'] }}</h3>
+      <p>{{ product['description'] }}</p>
+      <p class="price">{{ product['price_cents']|money }}</p>
+      <div class="actions">
+        <a class="btn secondary" href="{{ url_for('product_detail', product_id=product['id']) }}">View</a>
+        <form action="{{ url_for('add_to_cart', product_id=product['id']) }}" method="post">
+          <button class="btn" type="submit">Add to cart</button>
+        </form>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}

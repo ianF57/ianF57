@@ -1,24 +1,38 @@
-# Hi there 👋, I'm Ian Faasen!  
+# Shopify Lite (Full App)
 
-## 💻 About Me  
-I'm a **Bachelor of Computer Science** student at **Belgium Campus** (2023 - 2026), passionate about **Python, Natural Language Processing (NLP), and Deep Learning**. I enjoy tackling challenges, learning new technologies, and helping others grow in their knowledge.  
+A complete Shopify-style e-commerce MVP built with **Flask + SQLite**.
 
-## 🎓 Education  
-- **Belgium Campus** — Bachelor of Computer Science (2023 - 2026)  
-- **Eduplex High School** — Matric (2018 - 2022)  
+## Features
+- User registration/login/logout
+- Product catalog and product details
+- Shopping cart (add/remove)
+- Checkout flow that creates orders and updates stock
+- User order history
+- Admin panel to create products
+- Seeded demo products and admin account
 
-## 🏆 Skills  
-- **Python (Programming Language)**  
-- **Natural Language Processing (NLP)**  
-- **Deep Learning**  
+## Stack
+- Flask
+- SQLite
+- Jinja2 templates
+- Plain CSS
+- Pytest
 
-## 📚 Experience  
-### **Tutor Doctor — Private Tutor**  
-_August 2024 - May 2025 (10 months) | Gauteng, South Africa_  
-I tutored students from **Grade 1 to Matric** in **AFH, IT, and Math**, helping them build confidence and understanding in their studies.  
+## Quick start
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python run.py
+```
 
-## 🚀 Connect with Me  
-- **Email:** [faasenian0@gmail.com](mailto:faasenian0@gmail.com)  
-- **LinkedIn:** [Ian Faasen](https://www.linkedin.com/in/ian-faasen-2163791b2)  
+Open: `http://localhost:5000`
 
-🌟 _Always eager to learn, grow, and collaborate on innovative projects!_  
+## Demo admin login
+- Email: `admin@shopify.local`
+- Password: `admin123`
+
+## Tests
+```bash
+pytest
+```
